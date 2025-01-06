@@ -19,7 +19,7 @@
 #
 ---
 include:
-  - board: nrfmicro_13
+  - board: nice_nano
     shield: ergodash_left
-  - board: nrfmicro_13
+  - board: nice_nano
     shield: ergodash_right
