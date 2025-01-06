@@ -93,11 +93,11 @@
  * .----------------------------------------------------------------------------------------------------------------------.
  */ /* FIXME boot and reset are not yet locale aware */
             bindings = <
-&none   &kp F1    &kp F2    &kp F3     &kp F4  &kp F5  &kp F11                  &kp F12  &kp F6        &kp F7     &kp F8        &kp F9        &kp F10       &none
-&none   &none     &kp UP    &none      &none   &none   &none                    &none    &none         &none      &none         &none         &none         &none
-&none   &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none   &none                    &none    &kp KP_MINUS  &kp UNDER  &kp KP_EQUAL  &kp KP_PLUS   &none         &kp K_MUTE
-&trans  &none     &none     &none      &none   &none            &none   &none            &none         &none      &none         &none         &none         &kp K_PLAY_PAUSE
-&trans  &none     &none     &trans     &trans          &none    &trans  &trans  &none                  &trans     &kp K_PREV    &kp K_VOL_UP  &kp K_VOL_DN  &kp K_NEXT
+&none   &kp F1    &kp F2    &kp F3     &kp F4  &kp F5  &kp F11                   &kp F12  &kp F6        &kp F7     &kp F8        &kp F9        &kp F10       &none
+&none   &none     &kp UP    &none      &none   &none   &none                     &none    &none         &none      &none         &none         &none         &none
+&none   &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none   &none                     &none    &kp KP_MINUS  &kp UNDER  &kp KP_EQUAL  &kp KP_PLUS   &none         &kp K_MUTE
+&trans  &none     &none     &none      &none   &none            &kp DEL  &none            &none         &none      &none         &none         &none         &kp K_PLAY_PAUSE
+&trans  &none     &none     &trans     &trans          &none    &trans   &trans  &none                  &trans     &kp K_PREV    &kp K_VOL_UP  &kp K_VOL_DN  &kp K_NEXT
             >;
         };
 
