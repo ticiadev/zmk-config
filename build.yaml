@@ -19,7 +19,7 @@
 #
 ---
 include:
-  - board: nrf52840_m2
+  - board: nrfmicro_13
     shield: ergodash_left
-  - board: nrf52840_m2
+  - board: nrfmicro_13
     shield: ergodash_right
